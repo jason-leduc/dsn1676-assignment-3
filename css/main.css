@@ -70,11 +70,11 @@ body {
 @-webkit-keyframes box-rotate {
     
     0% {
-     transform: rotate(0deg);   
+     -webkit-transform: rotate(0deg);   
     }
     
     100% {
-        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
     }
 }
 
@@ -103,28 +103,28 @@ body {
 @-webkit-keyframes bounce {
     
     0% {
-     transform: translateY(0);   
+     -webkit-transform: translateY(0);   
     }
     
     50% {
-        transform: translateY(100px);
+        -webkit-transform: translateY(100px);
     }
     
     65% {
-        transform: translateY(-75px);
-        transform: rotate(180deg);
+        -webkit-transform: translateY(-75px);
+        -webkit-transform: rotate(180deg);
     }
     
     75% {
-        transform: translateY(-50px);
+        -webkit-transform: translateY(-50px);
     }
     
     86.78% {
-        transform: translateY(-75px);
+        -webkit-transform: translateY(-75px);
     }
     
     100% {
-        transform: translateY(200px);
+        -webkit-transform: translateY(200px);
     }
 }
 
