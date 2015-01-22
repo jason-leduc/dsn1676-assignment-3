@@ -47,6 +47,6 @@ html {
     top: 100px;
     width: 200px;
     height: 100px;
-    animation: box-rotate 1s linear infinite;
+    animation: box-rotate 15s linear infinite;
     transform-origin: left center;
 }
