@@ -21,6 +21,10 @@ html {
     box-sizing: inherit;
 }
 
+.body {
+    background-image: url(../images/stars.svg)
+}
+
 .asteroid {
     position: absolute;
     width: 200px;
