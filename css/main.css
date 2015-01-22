@@ -22,7 +22,8 @@ html {
 }
 
 .body {
-    background-image: url(../images/stars.svg)
+    background-color: black;
+    background-image: url(../images/stars.svg);
 }
 
 .asteroid {
