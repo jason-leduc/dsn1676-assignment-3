@@ -26,6 +26,29 @@ html {
     width: 200px;
     height: 200px;
     top: 200px;
-    animation: 10s ease-in-out alternate none infinite;
+    left: 200px;
+    background-color: red;
+    animation: box-rotate 10s ease-in-out infinite alternate;
 }
+
+@keyframes box-rotate {
     
+    0% {
+     transform: rotate(0deg);   
+    }
+    
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.ship {
+    position: absolute;
+    right: 200px;
+    top: 100px;
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+    animation: box-rotate 1s linear infinite;
+    transform-origin: left center;
+}
