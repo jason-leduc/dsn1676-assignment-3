@@ -27,7 +27,6 @@ html {
     height: 200px;
     top: 200px;
     left: 200px;
-    background-color: red;
     animation: box-rotate 10s ease-in-out infinite alternate;
 }
 
@@ -48,7 +47,6 @@ html {
     top: 100px;
     width: 200px;
     height: 100px;
-    background-color: orange;
     animation: box-rotate 1s linear infinite;
     transform-origin: left center;
 }
