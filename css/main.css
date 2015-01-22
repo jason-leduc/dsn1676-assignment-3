@@ -52,7 +52,7 @@ html {
     top: 100px;
     width: 200px;
     height: 100px;
-    animation: bounce 10s linear infinite;
+    animation: bounce 5s linear infinite;
     transform-origin: left center;
 }
 
