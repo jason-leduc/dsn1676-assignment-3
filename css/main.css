@@ -20,3 +20,12 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
 }
+
+.asteroid {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 200px;
+    animation: 10s ease-in-out alternate none infinite;
+}
+    
