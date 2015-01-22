@@ -29,6 +29,7 @@ body {
     background-image: url(../images/stars.svg);
     width: 100%;
     height: 100vh;
+    animation: box-rotate 20s ease-in-out infinite alternate;
 }
 
 .asteroid {
