@@ -21,6 +21,10 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    background-color: black;
+}
+
 .stars {
     background-image: url(../images/stars.svg);
     width: 100%;
